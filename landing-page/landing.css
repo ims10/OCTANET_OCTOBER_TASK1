@@ -1,0 +1,192 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+.navbar {
+    top: 0;
+    width: auto;
+    background-color: #333;
+    transition: background-color 0.3s;   
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+.nav-item {
+    margin: 0 12px;
+}
+
+.nav-link {
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: yellow;
+    background-color: #555;
+}
+.scrolled {
+    background-color: #555 !important;
+}
+
+.section {
+    padding: 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+.section .content {
+    max-width: 600px;
+}
+
+#home {
+    background-image: url('home.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 251);
+    font-size: x-large;
+}
+
+#destinations {
+    background-image: url('location.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#tours {
+    background-image: url('gidence.jpg');
+    background-size: cover;
+    background-position: center;
+    color: chartreuse;
+}
+
+#contact {
+    background-image: url('contact.jpg');
+    background-size: cover;
+    background-position: center;
+    color: brown;
+}
+.navbar-title {
+    margin: 5px;
+}
+
+.footer {
+    position: bottom;
+    width: 100%;
+    background: #333;
+    border-radius: 2px;
+  }
+  .footer .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 3.75rem;
+  }
+  .footer-row .footer-col h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .footer-col .links {
+    margin-top: 1.25rem;
+  }
+  .footer-col .links li {
+    list-style: none;
+    margin-bottom: 0.6rem;
+  }
+  .footer-col .links li a {
+    text-decoration: none;
+    color: #bfbfbf;
+  }
+  .footer-col .links li a:hover {
+    color: yellow;
+  }
+  .footer-col p {
+    margin: 20px 0;
+    color: #bfbfbf;
+
+  }
+  .footer-col form {
+    display: flex;
+    gap: 5px;
+  }
+  .footer-col input {
+    height: 40px;
+    border-radius: 6px;
+    background: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid #7489C6 ;
+    caret-color: #fff;
+    color: #fff;
+    padding-left: 10px;
+  }
+  .footer-col input::placeholder {
+    color: #ccc;
+  }
+   .footer-col form button {
+    background: white;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+  }
+  .footer-col form button:hover {
+    background: yellow;
+  }
+  .footer-col .icons {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+  }
+  .footer-col .icons i {
+    color: #afb6c7;
+  }
+  .footer-col .icons i:hover  {
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    .footer {
+      position: relative;
+      bottom: 0;
+      left: 0;
+      transform: none;
+      width: 100%;
+      border-radius: 0;
+    }
+    .footer .footer-row {
+      padding: 20px;
+      gap: 1rem;
+    }
+    .footer-col form {
+      display: block;
+    }
+    .footer-col form :where(input, button) {
+      width: auto;
+    }
+    .footer-col form button {
+      margin: 10px 0 0 0;
+    }
+  } 
