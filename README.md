@@ -1,18 +1,19 @@
 # DEMO_PROJECT
 
-Minimize distractions and keep the focus on your travel offering by limiting extra navigation options on your landing page. By removing unnecessary links and navigation menus, you guide visitors toward the intended action without the risk of them getting sidetracked.
+*Minimize distractions and keep the focus on travel offering by limiting extra navigation options on  landing page. By removing unnecessary links and 
+ navigation menus,  guide visitors toward the intended action without the risk of them getting sidetracked.
 
-Include essential elements on your travel landing page to make a lasting impression. 
+*Include essential elements on travel landing page to make a lasting impression in page 
 
-These elements include:
+*These elements include:
 
-A compelling headline that grabs attention
-A concise and enticing description of your travel offering
-Captivating images or videos that showcase the destination or experience
-Testimonials from satisfied customers
-Trust-building badges or certifications
-A user-friendly form to capture leads
-A clear call-to-action (CTA) that prompts visitors to take the desired action, such as booking a trip or requesting more information.
+- A compelling headline that grabs attention
+- A concise and enticing description of your travel offering
+- Captivating images or videos that showcase the destination or experience
+- Testimonials from satisfied customers
+- Trust-building badges or certifications
+- A user-friendly form to capture leads
+- A clear call-to-action (CTA) that prompts visitors to take the desired action, such as booking a trip or requesting more information.
 
 # OUTPUT :
 
